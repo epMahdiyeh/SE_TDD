@@ -1,5 +1,3 @@
-![image](https://github.com/epMahdiyeh/SoftwareLab3/assets/62205305/742a2395-d516-44a4-a849-3898fa448a23)# SoftwareLab3
-
 مرحله اول: محاسبه مساحت مستطیل
 
 ابتدا با استفاده از کتابخانهJUnit تست‌های مربوط به محاسبه مساحت مستطیل را در کلاس RecTest می‌نویسیم:
