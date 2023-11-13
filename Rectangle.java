@@ -4,6 +4,12 @@ public class Rectangle implements Type {
         this.width = width;
         this.height = height;
     }
+    public double getWidth() {
+        return width;
+    }
+    public double getHeight() {
+        return height;
+    }
     @Override
     public double calculateArea() {
         double recArea = width*height;
