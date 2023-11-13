@@ -5,7 +5,7 @@ public class SquTest {
     @Test
     public void squTest() {
         Square square = new Square(6);
-        double actualArea = square.computeArea();
+        double actualArea = square.calculateArea();
         double expectedArea = 36;
         assertEquals(expectedArea, actualArea, 0.001);
     }
