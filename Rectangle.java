@@ -10,6 +10,14 @@ public class Rectangle implements Type {
     public double getHeight() {
         return height;
     }
+
+    public void setWidth(double width) {
+        this.width = width;
+    }
+
+    public void setHeight(double height) {
+        this.height = height;
+    }
     @Override
     public double calculateArea() {
         double recArea = width*height;
