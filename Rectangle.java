@@ -6,7 +6,7 @@ public class Rectangle implements Type {
     }
     @Override
     public double calculateArea() {
-        double answer = 0;
-        return answer;
+        double recArea = width*height;
+        return recArea;
     }
 }
