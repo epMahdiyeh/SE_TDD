@@ -11,7 +11,7 @@ public class Square implements Type {
     }
     @Override
     public double calculateArea() {
-        double answer = 0;
-        return answer;
+        double squArea = side*side;
+        return squArea;
     }
 }
