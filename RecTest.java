@@ -5,7 +5,7 @@ public class RecTest {
 
     @Test
     public void recTest() {
-        Rectangle rectangle = new Rectangle(8,5);
+        Rectangle rectangle = new Rectangle(5,8);
         double result = rectangle.calculateArea();
         double expected = 40;
         assertEquals(expected, result, 0.001);
