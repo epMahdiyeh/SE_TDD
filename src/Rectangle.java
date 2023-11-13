@@ -1,3 +1,7 @@
+package src;
+
+import src.Type;
+
 public class Rectangle implements Type {
     private double width, height;
     public Rectangle(double width, double height) {

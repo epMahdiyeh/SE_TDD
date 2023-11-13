@@ -1,3 +1,7 @@
+package src;
+
+import src.Type;
+
 public class Square implements Type {
     private double side;
     public Square(double side) {
